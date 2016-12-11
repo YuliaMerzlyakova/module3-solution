@@ -1,0 +1,175 @@
+body {
+	font-size: 16px;
+	color: #000;
+	font-family: 'Comic Sans MS', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #bfbcbc;
+	border-radius: 0;
+	border-bottom: 1px solid #000;
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	padding-top:  15px;
+}
+
+.navbar-brand h1 {
+	color: #000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 0;
+}
+
+#nav-list a {
+	text-align: center;
+}
+
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+#collapsable-nav a { /* Collapsed nav menu glyph*/
+	font-size: 1.2em;
+}
+
+#collapsable-nav a span{ 
+	font-size: 1em;
+	margin-right: 5px;
+}
+/* END HEADER*/
+
+/* HOME PAGE*/
+
+
+#menu-tiles div {
+	background-color: #bfbcbc;
+	margin-bottom: 20px;
+}
+
+#menu-tiles p {
+	text-align: left;
+	padding: 0 15px 10px 15px;
+}
+
+#menu-categories-tile {
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+h3 {
+	font-weight: bold;
+}
+
+
+/* END HOME PAGE*/
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/* Header */
+	
+/* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	 /* Home page */
+
+	 /* end Home page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	/* Header */
+	.navbar-brand {
+	height: 40px;
+
+}
+.navbar-default .navbar-collapse {
+	border-color: #000;
+	background-color: #eddede;
+}
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+.navbar-nav {
+    margin: 0px -15px;
+}
+
+.navbar-nav li{
+    border-bottom: 1px solid black;
+}
+
+.navbar-nav li:last-child {
+    border-bottom: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+	/* End Header */
+	 /* Home page */
+
+	#menu-tile,
+	#specials-tile {
+			/*width: 360px;*/
+		margin: 0 auto 15px;
+		}
+	 /* end Home page */
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
+}
+
+/**** Super extra small devices Only ****/
+@media (max-width: 479px) {
+
+.navbar-brand h1 { /* Restraunt name */
+	padding-top: 5px;
+	font-size: 6vw;
+	
+}
+#menu-tile {
+			width: 280px;
+		margin: 0 auto 15px;
+		}
+
+.row {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+}
